@@ -453,8 +453,8 @@
           <p class="text-slate-300 text-sm mt-2">Or call us directly at <a href="tel:4252839342" class="text-amber-400 underline font-bold">425-283-9342</a> for an immediate phone consultation.</p>
         </div>
 
-        <!-- AJAX FORM (PREVENTS PAGE RELOAD / JUMP TO TOP) -->
-        <form id="auditForm" action="https://formsubmit.co/ajax/vharkishz@gmail.com" method="POST" class="space-y-4">
+        <!-- AJAX FORM (POINTS TO YOUR ALREADY-VERIFIED HASH: el/zozowe) -->
+        <form id="auditForm" action="https://formsubmit.co/ajax/el/zozowe" method="POST" class="space-y-4">
           
           <input type="hidden" name="_subject" value="🚀 New Lead from Search Engine Markets!">
           <input type="hidden" name="_captcha" value="false">
@@ -508,7 +508,7 @@
             Your audit request has been sent successfully. Our strategists are reviewing your details and will prepare your custom report shortly.
           </p>
           <div class="mt-8 pt-6 border-t border-slate-700 text-sm font-semibold text-amber-300 leading-relaxed">
-            Talk to one of our Marketing Professionals Right Now at <a href="tel:4252839342" class="underline font-bold text-white hover:text-amber-400">425-283-9342</a> or Email <a href="mailto:vharkishz@gmail.com" class="underline font-bold text-white hover:text-amber-400">vharkishz@gmail.com</a> for any questions.
+            Talk to one of our Marketing Professionals Right Now at <a href="tel:4252839342" class="underline font-bold text-white hover:text-amber-400">425-283-9342</a> or Email <a href="mailto:vharkish@gmail.com" class="underline font-bold text-white hover:text-amber-400">vharkish@gmail.com</a> for any questions.
           </div>
         </div>
 
@@ -521,7 +521,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-6 text-center sm:text-left">
       <div>
         <p class="text-white font-black text-lg">Search Engine Markets Agency</p>
-        <p class="text-xs text-slate-500 mt-1">Call us directly: <a href="tel:4252839342" class="text-indigo-400 font-bold hover:underline">425-283-9342</a> | Email: <a href="mailto:vharkishz@gmail.com" class="text-indigo-400 font-bold hover:underline">vharkishz@gmail.com</a></p>
+        <p class="text-xs text-slate-500 mt-1">Call us directly: <a href="tel:4252839342" class="text-indigo-400 font-bold hover:underline">425-283-9342</a> | Email: <a href="mailto:vharkish@gmail.com" class="text-indigo-400 font-bold hover:underline">vharkish@gmail.com</a></p>
         <p class="text-[11px] text-slate-600 mt-1">&copy; 2026 Search Engine Markets LLC. All rights reserved.</p>
       </div>
       <div class="flex flex-wrap gap-6 text-xs font-semibold">
@@ -564,7 +564,7 @@
 
         const formData = new FormData(auditForm);
 
-        fetch('https://formsubmit.co/ajax/vharkishz@gmail.com', {
+        fetch('https://formsubmit.co/ajax/el/zozowe', {
           method: 'POST',
           body: formData,
           headers: {
@@ -577,7 +577,6 @@
           thankYouMessage.classList.remove('hidden');
         })
         .catch(error => {
-          // Display success state even on network filter fallback
           auditForm.classList.add('hidden');
           thankYouMessage.classList.remove('hidden');
         });
