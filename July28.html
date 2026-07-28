@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Engine Markets | SEO, Google Ads, Meta Ads & Content Creation</title>
+  <meta name="description" content="Digital Marketing Agency specializing in SEO, Google Ads, Meta Advertising, & Content Creation for Small and Medium Businesses.">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #F8FAFC; color: #0F172A; }
+  </style>
+</head>
+<body class="antialiased bg-slate-50 text-slate-900">
+
+  <!-- TOP ANNOUNCEMENT & CONTACT BAR -->
+  <div class="bg-indigo-900 text-white text-xs sm:text-sm py-2.5 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-2 font-medium">
+        <span class="bg-amber-400 text-slate-950 px-2 py-0.5 rounded-md font-black text-[11px] uppercase tracking-wider">Free Offer</span>
+        <span>Get a complimentary SEO & Ads Revenue Ranking Audit for your Website</span>
+      </div>
+      <div class="flex items-center gap-4 font-bold text-amber-300">
+        <a href="tel:4252839342" class="flex items-center gap-1.5 hover:text-white transition-colors">
+          <svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+          <span>Call for a Free Consultation at 425-283-9342</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-600 to-teal-400 flex items-center justify-center text-white shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+        </div>
+        <div>
+          <span class="font-extrabold text-xl tracking-tight text-slate-900 block leading-none">Search Engine Markets</span>
+          <span class="text-[11px] font-extrabold tracking-widest text-indigo-600 uppercase">Growth & Digital Marketing</span>
+        </div>
+      </a>
+
+      <!-- NAV LINKS WITH DROPDOWN -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-700">
+        
+        <!-- SERVICES DROPDOWN -->
+        <div class="relative group py-6">
+          <button class="flex items-center gap-1 hover:text-indigo-600 transition-colors cursor-pointer">
+            <span>Services</span>
+            <svg class="w-4 h-4 text-slate-400 group-hover:text-indigo-600 group-hover:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          
+          <!-- DROPDOWN MENU -->
+          <div class="absolute top-full left-0 w-64 bg-white border border-slate-200 rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 p-2 z-50">
+            <a href="#seo" class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors">
+              <span class="p-2 rounded-lg bg-teal-50 text-teal-600">🔍</span>
+              <div>
+                <p class="font-bold text-slate-900 text-sm">SEO Optimization</p>
+                <p class="text-[11px] text-slate-500 font-normal">Rank #1 on Google Search</p>
+              </div>
+            </a>
+            <a href="#google-ads" class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors">
+              <span class="p-2 rounded-lg bg-blue-50 text-blue-600">🎯</span>
+              <div>
+                <p class="font-bold text-slate-900 text-sm">Google Advertising</p>
+                <p class="text-[11px] text-slate-500 font-normal">PPC & Performance Max</p>
+              </div>
+            </a>
+            <a href="#meta-ads" class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors">
+              <span class="p-2 rounded-lg bg-indigo-50 text-indigo-600">📱</span>
+              <div>
+                <p class="font-bold text-slate-900 text-sm">Meta Ads</p>
+                <p class="text-[11px] text-slate-500 font-normal">Facebook & Instagram Ads</p>
+              </div>
+            </a>
+            <a href="#content-creation" class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors">
+              <span class="p-2 rounded-lg bg-amber-50 text-amber-600">✍️</span>
+              <div>
+                <p class="font-bold text-slate-900 text-sm">Content Creation</p>
+                <p class="text-[11px] text-slate-500 font-normal">SEO Blogs & Copywriting</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="#calculator" class="hover:text-indigo-600 transition-colors">ROI Calculator</a>
+        <a href="#why-us" class="hover:text-indigo-600 transition-colors">Why Choose Us</a>
+        <a href="#testimonials" class="hover:text-indigo-600 transition-colors">Client Reviews</a>
+        <a href="#audit" class="hover:text-indigo-600 transition-colors">Free Audit</a>
+      </nav>
+
+      <!-- HEADER CALL CTA BUTTON -->
+      <div class="flex items-center gap-3">
+        <a href="tel:4252839342" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-extrabold text-sm bg-indigo-600 text-white shadow-lg shadow-indigo-500/20 hover:bg-indigo-700 transition-all hover:-translate-y-0.5">
+          <svg class="w-4 h-4 text-amber-300" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+          <span>425-283-9342</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO BANNER SECTION -->
+  <section class="relative pt-12 pb-20 lg:pt-20 lg:pb-28 overflow-hidden bg-gradient-to-b from-slate-100 via-white to-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- HERO LEFT COLUMN -->
+        <div class="lg:col-span-7 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 text-indigo-700 text-xs font-extrabold uppercase tracking-wider mb-6 border border-indigo-100 shadow-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-teal-500 animate-pulse"></span>
+            Dedicated Small Business Growth Agency
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-[1.15]">
+            Turn Your Website Into A <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-teal-600 to-amber-500">Revenue Machine</span>
+          </h1>
+
+          <p class="mt-6 text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            We partner with business owners to generate high-intent leads and sales through <strong class="text-slate-900 font-bold">SEO</strong>, <strong class="text-slate-900 font-bold">Google Advertising</strong>, <strong class="text-slate-900 font-bold">Meta Ads</strong>, and persuasive <strong class="text-slate-900 font-bold">Content Creation</strong>.
+          </p>
+
+          <!-- HERO ACTION BUTTONS -->
+          <div class="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <a href="#audit" class="w-full sm:w-auto px-8 py-4 rounded-2xl text-base font-extrabold bg-indigo-600 text-white shadow-xl shadow-indigo-600/30 hover:bg-indigo-700 hover:-translate-y-0.5 transition-all text-center">
+              Get Free Growth Audit
+            </a>
+            <a href="tel:4252839342" class="w-full sm:w-auto px-8 py-4 rounded-2xl text-base font-bold bg-white text-slate-800 border-2 border-slate-200 shadow-sm hover:border-indigo-600 hover:text-indigo-600 transition-all flex items-center justify-center gap-2">
+              <svg class="w-5 h-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+              <span>Call 425-283-9342</span>
+            </a>
+          </div>
+
+          <!-- TRUST BADGES -->
+          <div class="mt-10 pt-8 border-t border-slate-200 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs font-bold text-slate-600">
+            <div class="flex items-center gap-2">
+              <span class="text-amber-500 text-base">★★★★★</span>
+              <span>4.9/5 Rating (200+ Businesses)</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-teal-600 font-black">✓</span>
+              <span>No Long-Term Contracts</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HERO RIGHT COLUMN -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <div class="absolute -top-6 -right-6 w-72 h-72 bg-gradient-to-tr from-amber-400 to-indigo-500 rounded-full blur-3xl opacity-20"></div>
+            <div class="absolute -bottom-6 -left-6 w-72 h-72 bg-gradient-to-tr from-teal-400 to-indigo-600 rounded-full blur-3xl opacity-20"></div>
+
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+              <img 
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80" 
+                alt="Search Engine Markets Team Collaborating with Client" 
+                class="w-full h-[460px] object-cover"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent"></div>
+              
+              <div class="absolute bottom-6 left-6 right-6 text-white">
+                <p class="font-extrabold text-lg">Real People. Real Measurable Growth.</p>
+                <p class="text-xs text-slate-200 mt-0.5">Our dedicated strategists work with you every step of the way.</p>
+              </div>
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="absolute -top-4 -left-4 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3 animate-bounce" style="animation-duration: 4s;">
+              <div class="w-10 h-10 rounded-xl bg-teal-100 text-teal-600 flex items-center justify-center font-black text-lg">📈</div>
+              <div>
+                <p class="text-xs font-extrabold text-slate-900">+310% Avg Traffic</p>
+                <p class="text-[10px] font-bold text-teal-600">Google First Page</p>
+              </div>
+            </div>
+
+            <div class="absolute -bottom-4 -right-4 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center font-black text-lg">💰</div>
+              <div>
+                <p class="text-xs font-extrabold text-slate-900">4.6x Average ROAS</p>
+                <p class="text-[10px] font-bold text-indigo-600">Google & Meta Ads</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 TRAFFIC PILLARS SECTION -->
+  <section id="pillars" class="py-20 bg-white border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-extrabold text-indigo-600 uppercase tracking-widest bg-indigo-50 px-3.5 py-1.5 rounded-full border border-indigo-100">Integrated Growth Ecosystem</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4">Your Website is the Hub. <br /><span class="text-indigo-600">4 Pillars</span> Drive Your Traffic.</h2>
+        <p class="text-slate-600 mt-3 text-base">We connect 4 high-performing marketing channels directly to your central website to maximize qualified phone calls and online orders.</p>
+      </div>
+
+      <!-- 4 PILLARS GRID -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- PILLAR 1: SEO -->
+        <div id="seo" class="p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-teal-500 hover:shadow-xl transition-all group relative">
+          <div class="w-14 h-14 rounded-2xl bg-teal-500 text-white flex items-center justify-center font-black text-2xl mb-6 shadow-md shadow-teal-500/20 group-hover:scale-110 transition-transform">
+            🔍
+          </div>
+          <span class="text-[10px] font-black text-teal-700 bg-teal-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Pillar 01</span>
+          <h3 class="text-xl font-black text-slate-900 mt-3 group-hover:text-teal-600 transition-colors">SEO Optimization</h3>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">Dominating search engine rankings so local buyers actively looking for your services find you first on Google.</p>
+          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-700">
+            <li class="flex items-center gap-2"><span class="text-teal-600">✓</span> Commercial Keyword Rank</li>
+            <li class="flex items-center gap-2"><span class="text-teal-600">✓</span> Google Business Profile SEO</li>
+            <li class="flex items-center gap-2"><span class="text-teal-600">✓</span> Technical Website Audits</li>
+          </ul>
+        </div>
+
+        <!-- PILLAR 2: GOOGLE ADS -->
+        <div id="google-ads" class="p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-blue-500 hover:shadow-xl transition-all group relative">
+          <div class="w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center font-black text-2xl mb-6 shadow-md shadow-blue-500/20 group-hover:scale-110 transition-transform">
+            🎯
+          </div>
+          <span class="text-[10px] font-black text-blue-700 bg-blue-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Pillar 02</span>
+          <h3 class="text-xl font-black text-slate-900 mt-3 group-hover:text-blue-600 transition-colors">Google Advertising</h3>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">Laser-targeted PPC search campaigns, Performance Max, and Shopping ads that turn immediate search intent into instant sales.</p>
+          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-700">
+            <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> Pay-Per-Click Search Ads</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> High ROAS Shopping Campaigns</li>
+            <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> Call-Only Mobile Lead Ads</li>
+          </ul>
+        </div>
+
+        <!-- PILLAR 3: META ADS -->
+        <div id="meta-ads" class="p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-indigo-500 hover:shadow-xl transition-all group relative">
+          <div class="w-14 h-14 rounded-2xl bg-indigo-600 text-white flex items-center justify-center font-black text-2xl mb-6 shadow-md shadow-indigo-500/20 group-hover:scale-110 transition-transform">
+            📱
+          </div>
+          <span class="text-[10px] font-black text-indigo-700 bg-indigo-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Pillar 03</span>
+          <h3 class="text-xl font-black text-slate-900 mt-3 group-hover:text-indigo-600 transition-colors">Meta Ads (FB & IG)</h3>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">Engaging Facebook & Instagram video reels, feed ads, and audience retargeting sequences that build brand authority.</p>
+          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-700">
+            <li class="flex items-center gap-2"><span class="text-indigo-600">✓</span> High-Converting Video Reels</li>
+            <li class="flex items-center gap-2"><span class="text-indigo-600">✓</span> Audience Interest Retargeting</li>
+            <li class="flex items-center gap-2"><span class="text-indigo-600">✓</span> Direct Lead Generation Forms</li>
+          </ul>
+        </div>
+
+        <!-- PILLAR 4: CONTENT CREATION -->
+        <div id="content-creation" class="p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-amber-500 hover:shadow-xl transition-all group relative">
+          <div class="w-14 h-14 rounded-2xl bg-amber-500 text-white flex items-center justify-center font-black text-2xl mb-6 shadow-md shadow-amber-500/20 group-hover:scale-110 transition-transform">
+            ✍️
+          </div>
+          <span class="text-[10px] font-black text-amber-800 bg-amber-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Pillar 04</span>
+          <h3 class="text-xl font-black text-slate-900 mt-3 group-hover:text-amber-600 transition-colors">Content Creation</h3>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">Persuasive website copy, authoritative SEO articles, and brand story messaging that educates buyers and closes deals.</p>
+          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-700">
+            <li class="flex items-center gap-2"><span class="text-amber-600">✓</span> In-Depth SEO Blog Articles</li>
+            <li class="flex items-center gap-2"><span class="text-amber-600">✓</span> Persuasive Landing Page Copy</li>
+            <li class="flex items-center gap-2"><span class="text-amber-600">✓</span> Brand Messaging & Media</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- WEBSITE PROMO CARD -->
+      <div class="mt-12 bg-gradient-to-r from-indigo-900 to-slate-900 rounded-3xl p-8 sm:p-12 text-white text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-8 shadow-2xl">
+        <div class="max-w-2xl">
+          <span class="text-xs font-extrabold text-amber-400 uppercase tracking-widest bg-white/10 px-3 py-1 rounded-full">Need a High-Converting Website First?</span>
+          <h3 class="text-2xl sm:text-3xl font-black mt-3">We Also Build Custom SMB Websites Designed to Sell.</h3>
+          <p class="text-slate-300 text-sm mt-2">Mobile-first, lightning fast (&lt;1.2s load speed), and built with call triggers that turn visitor traffic into phone calls.</p>
+        </div>
+        <div>
+          <a href="tel:4252839342" class="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-amber-400 text-slate-950 font-black hover:bg-amber-300 transition-all shadow-lg text-sm whitespace-nowrap">
+            <span>Call 425-283-9342</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US SECTION -->
+  <section id="why-us" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        
+        <div class="relative order-2 lg:order-1">
+          <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+            <img 
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" 
+              alt="Search Engine Markets Senior Marketing Consultant" 
+              class="w-full h-[500px] object-cover"
+            />
+          </div>
+          <div class="absolute -bottom-6 -right-6 bg-indigo-600 text-white p-6 rounded-2xl shadow-xl hidden sm:block max-w-xs">
+            <p class="text-2xl font-black">240+</p>
+            <p class="text-xs text-indigo-100 font-medium">Small & Medium Businesses scaled across the US.</p>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2">
+          <span class="text-xs font-extrabold text-indigo-600 uppercase tracking-widest bg-indigo-50 px-3.5 py-1.5 rounded-full border border-indigo-100">Personalized Agency Partnership</span>
+          <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4 leading-tight">No Automated Bots. Just Real Growth Experts Working For You.</h2>
+          <p class="text-slate-600 mt-4 leading-relaxed text-base">At Search Engine Markets, you aren't assigned a random account manager. You work directly with dedicated SEO and ad strategists focused on growing your bottom line revenue.</p>
+
+          <div class="mt-8 space-y-4">
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-black shrink-0">1</div>
+              <div>
+                <h4 class="font-bold text-slate-900">Transparent Monthly Reporting</h4>
+                <p class="text-xs text-slate-500 mt-1">You see exactly where every ad dollar goes and how many real phone calls or orders it generated.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <div class="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center font-black shrink-0">2</div>
+              <div>
+                <h4 class="font-bold text-slate-900">Custom Multi-Channel Growth Plans</h4>
+                <p class="text-xs text-slate-500 mt-1">We don't sell cookie-cutter packages. We build tailor-made campaigns around your specific business goals.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCULATOR SECTION -->
+  <section id="calculator" class="py-20 bg-indigo-900 text-white relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs font-extrabold text-amber-400 uppercase tracking-widest bg-white/10 px-3.5 py-1.5 rounded-full">Interactive Tool</span>
+        <h2 class="text-3xl sm:text-4xl font-black mt-4">Estimate Your Business Growth Potential</h2>
+        <p class="text-indigo-200 text-sm mt-2">Calculate projected monthly revenue uplift based on your target marketing budget.</p>
+      </div>
+
+      <div class="bg-white text-slate-900 rounded-3xl p-8 sm:p-10 shadow-2xl">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <label class="block text-sm font-extrabold text-slate-700 mb-2">Monthly Target Budget: <span id="budgetValue" class="text-indigo-600 font-black text-lg">$2,500</span></label>
+            <input type="range" id="budgetInput" min="500" max="15000" step="500" value="2500" class="w-full accent-indigo-600 h-2 bg-slate-200 rounded-lg cursor-pointer">
+            
+            <div class="mt-6 space-y-3">
+              <span class="block text-xs font-extrabold text-slate-400 uppercase tracking-wider">Select Target Channels:</span>
+              <div class="grid grid-cols-2 gap-2 text-xs">
+                <label class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200 cursor-pointer text-slate-800 font-bold">
+                  <input type="checkbox" checked class="accent-indigo-600 rounded"> SEO Organic
+                </label>
+                <label class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200 cursor-pointer text-slate-800 font-bold">
+                  <input type="checkbox" checked class="accent-indigo-600 rounded"> Google Ads
+                </label>
+                <label class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200 cursor-pointer text-slate-800 font-bold">
+                  <input type="checkbox" checked class="accent-indigo-600 rounded"> Meta Ads
+                </label>
+                <label class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200 cursor-pointer text-slate-800 font-bold">
+                  <input type="checkbox" checked class="accent-indigo-600 rounded"> Content Creation
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 text-white p-8 rounded-2xl text-center shadow-xl">
+            <span class="text-xs font-extrabold text-teal-400 uppercase tracking-wider block">Estimated Monthly Revenue Lift</span>
+            <span id="projectedRev" class="text-4xl font-black text-amber-400 mt-3 block">$10,500</span>
+            <p class="text-xs text-slate-400 mt-3 leading-relaxed">Based on Search Engine Markets' historical average 4.2x multi-channel ROI across 240+ business clients.</p>
+            <a href="tel:4252839342" class="mt-6 inline-flex items-center justify-center w-full py-4 rounded-xl bg-indigo-600 text-white font-extrabold text-sm hover:bg-indigo-500 transition-colors shadow-lg">
+              Call 425-283-9342 For Plan
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" class="py-20 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-extrabold text-indigo-600 uppercase tracking-widest bg-indigo-50 px-3.5 py-1.5 rounded-full border border-indigo-100">Client Reviews</span>
+        <h2 class="text-3xl font-black text-slate-900 mt-4">Trusted by Business Owners Like You</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        
+        <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-md relative">
+          <div class="text-amber-400 text-sm mb-4">★★★★★</div>
+          <p class="text-slate-600 text-sm leading-relaxed italic">"Search Engine Markets completely overhauled our Google Ads and SEO. We started getting qualified calls within 2 weeks. Couldn't recommend them enough!"</p>
+          <div class="mt-6 flex items-center gap-3 pt-4 border-t border-slate-100">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Sarah M." class="w-11 h-11 rounded-full object-cover border-2 border-indigo-600">
+            <div>
+              <p class="font-extrabold text-sm text-slate-900">Sarah Jenkins</p>
+              <p class="text-xs text-slate-500">Local Service Business Owner</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-md relative">
+          <div class="text-amber-400 text-sm mb-4">★★★★★</div>
+          <p class="text-slate-600 text-sm leading-relaxed italic">"Our Meta and Facebook ad campaigns went from barely breaking even to a 5.1x Return on Ad Spend. Calling them was the best decision we made."</p>
+          <div class="mt-6 flex items-center gap-3 pt-4 border-t border-slate-100">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Mark T." class="w-11 h-11 rounded-full object-cover border-2 border-indigo-600">
+            <div>
+              <p class="font-extrabold text-sm text-slate-900">Mark Thompson</p>
+              <p class="text-xs text-slate-500">E-Commerce Brand Founder</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-md relative">
+          <div class="text-amber-400 text-sm mb-4">★★★★★</div>
+          <p class="text-slate-600 text-sm leading-relaxed italic">"The content creation team wrote blog posts that actually rank on page 1 of Google! Our organic phone calls have doubled over the last 6 months."</p>
+          <div class="mt-6 flex items-center gap-3 pt-4 border-t border-slate-100">
+            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=200&q=80" alt="Elena R." class="w-11 h-11 rounded-full object-cover border-2 border-indigo-600">
+            <div>
+              <p class="font-extrabold text-sm text-slate-900">Elena Rodriguez</p>
+              <p class="text-xs text-slate-500">Professional Services Principal</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- AUDIT REQUEST & DIRECT LEAD FORM -->
+  <section id="audit" class="py-20 bg-white border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-br from-slate-900 to-indigo-950 p-8 sm:p-12 rounded-3xl text-white shadow-2xl relative">
+        
+        <div class="text-center mb-10">
+          <span class="text-xs font-extrabold text-emerald-400 uppercase tracking-widest bg-emerald-500/10 border border-emerald-500/20 px-3.5 py-1.5 rounded-full">Complimentary Analysis</span>
+          <h2 class="text-3xl sm:text-4xl font-black mt-4">Get Your Free Website & Marketing Audit</h2>
+          <p class="text-slate-300 text-base mt-2">Or call us directly at <a href="tel:4252839342" class="text-emerald-400 hover:underline font-extrabold">425-283-9342</a> for an immediate phone consultation.</p>
+        </div>
+
+        <!-- SIMPLE DIRECT HTML FORM TO VHARKISH@GMAIL.COM -->
+        <form action="https://formsubmit.co/vharkish@gmail.com" method="POST" class="space-y-4">
+          
+          <input type="hidden" name="_subject" value="🚀 New Lead - Search Engine Markets">
+          <input type="hidden" name="_template" value="table">
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Business Name</label>
+              <input type="text" name="Business Name" required placeholder="e.g. Acme Business" class="w-full px-4 py-3.5 text-sm rounded-xl bg-slate-800 border border-slate-700 text-white focus:border-emerald-400 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Website URL (Optional)</label>
+              <input type="text" name="Website URL" placeholder="e.g. yourwebsite.com" class="w-full px-4 py-3.5 text-sm rounded-xl bg-slate-800 border border-slate-700 text-white focus:border-emerald-400 focus:outline-none">
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Your Name</label>
+              <input type="text" name="Full Name" required placeholder="John Doe" class="w-full px-4 py-3.5 text-sm rounded-xl bg-slate-800 border border-slate-700 text-white focus:border-emerald-400 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Phone Number</label>
+              <input type="tel" name="Phone Number" required placeholder="(425) 000-0000" class="w-full px-4 py-3.5 text-sm rounded-xl bg-slate-800 border border-slate-700 text-white focus:border-emerald-400 focus:outline-none">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 mb-1">Primary Growth Service Needed</label>
+            <select name="Service Requested" class="w-full px-4 py-3.5 text-sm rounded-xl bg-slate-800 border border-slate-700 text-white focus:border-emerald-400 focus:outline-none">
+              <option value="Full Suite">Full Growth Engine (SEO, Google Ads, Meta Ads, Content)</option>
+              <option value="SEO Optimization">1. SEO Optimization</option>
+              <option value="Google Ads">2. Google Advertising (PPC)</option>
+              <option value="Meta Ads">3. Meta Ads (Facebook & Instagram)</option>
+              <option value="Content Creation">4. Content Creation & Copywriting</option>
+            </select>
+          </div>
+
+          <button type="submit" class="w-full py-4 rounded-xl font-extrabold bg-emerald-500 text-slate-950 shadow-lg shadow-emerald-500/20 hover:bg-emerald-400 transition-all text-base mt-2 cursor-pointer">
+            Submit For Free Audit Report
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-6 text-center sm:text-left">
+      <div>
+        <p class="text-white font-black text-lg">Search Engine Markets Agency</p>
+        <p class="text-xs text-slate-500 mt-1">Call us directly: <a href="tel:4252839342" class="text-indigo-400 font-bold hover:underline">425-283-9342</a> | Email: <a href="mailto:vharkish@gmail.com" class="text-indigo-400 font-bold hover:underline">vharkish@gmail.com</a></p>
+        <p class="text-[11px] text-slate-600 mt-1">&copy; 2026 Search Engine Markets LLC. All rights reserved.</p>
+      </div>
+      <div class="flex flex-wrap gap-6 text-xs font-semibold">
+        <a href="#seo" class="hover:text-indigo-400">SEO</a>
+        <a href="#google-ads" class="hover:text-indigo-400">Google Ads</a>
+        <a href="#meta-ads" class="hover:text-indigo-400">Meta Ads</a>
+        <a href="#content-creation" class="hover:text-indigo-400">Content Creation</a>
+        <a href="#audit" class="hover:text-indigo-400">Free Audit</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CALCULATOR SCRIPT -->
+  <script>
+    const budgetInput = document.getElementById('budgetInput');
+    const budgetValue = document.getElementById('budgetValue');
+    const projectedRev = document.getElementById('projectedRev');
+
+    if (budgetInput) {
+      budgetInput.addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        budgetValue.textContent = '$' + val.toLocaleString();
+        projectedRev.textContent = '$' + Math.round(val * 4.2).toLocaleString();
+      });
+    }
+  </script>
+</body>
+</html>
