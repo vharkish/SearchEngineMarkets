@@ -58,7 +58,56 @@
     </div>
   </header>
 
-  <!-- HERO SECTION -->
+  <!-- NEW HERO SECTION (Centered Image & CTAs) -->
+  <section class="relative pt-16 pb-24 md:pt-24 md:pb-32 bg-[#0A0A0B] overflow-hidden border-b border-slate-800">
+    <!-- Background Grid Effect -->
+    <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(#4fd1c5 1px, transparent 1px); background-size: 40px 40px;"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 text-teal-400 text-xs font-bold uppercase tracking-wider mb-6 border border-slate-800 shadow-inner">
+        <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+        Full-Service Digital Growth Partner for SMBs
+      </div>
+      
+      <!-- Main Headline -->
+      <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter text-white max-w-5xl mx-auto leading-[1.1]">
+        We Scale Small Business Revenue with
+        <span class="text-teal-400 underline decoration-teal-600 underline-offset-8">Proven Digital Strategies</span>
+      </h1>
+      
+      <!-- Description -->
+      <p class="mt-8 text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-medium">
+        From high-converting website design to data-driven SEO, Google Ads, and Meta advertising, we provide the complete toolkit for ambitious Small and Medium Businesses to dominate their market.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+        <a href="#audit" class="w-full sm:w-auto px-10 py-4 rounded-xl text-base font-extrabold bg-teal-500 text-slate-950 shadow-lg shadow-teal-500/25 hover:bg-teal-400 transition-all hover:-translate-y-1 active:translate-y-0">
+          Claim Your Free Audit
+        </a>
+        <a href="#services" class="w-full sm:w-auto px-10 py-4 rounded-xl text-base font-semibold bg-slate-900 text-slate-200 border border-slate-700 hover:bg-slate-800 transition-all hover:-translate-y-1 active:translate-y-0 shadow-sm">
+          Explore Our Services
+        </a>
+      </div>
+
+      <!-- Centered Hero Image (Placeholder) -->
+      <div class="mt-20 md:mt-24 relative group">
+        <div class="absolute -inset-4 bg-teal-500/10 rounded-3xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <img 
+          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600&auto=format&fit=crop" 
+          alt="Digital Marketing Dashboard Analytics" 
+          class="relative rounded-2xl shadow-2xl border border-slate-800 w-full max-w-5xl mx-auto object-cover aspect-[16/7] grayscale group-hover:grayscale-0 transition-all duration-500"
+        >
+        <!-- Decorative Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0A0A0B] via-transparent to-transparent rounded-2xl"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HERO SECTION (Original - Kept for Metrics Ticker) -->
   <section class="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden bg-[#0A0A0B]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
       <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 text-teal-400 text-xs font-bold uppercase tracking-wider mb-6 border border-slate-800">
@@ -74,15 +123,15 @@
         From custom website development to ROI-driven SEO, Google/Meta/Amazon Ads, Social Media, Content, and Email Marketing — We power growth for Small and Medium businesses.
       </p>
 
-      <!-- ACTION BUTTONS -->
-      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <!-- ACTION BUTTONS (Moved to new Hero) -->
+      <!-- <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
         <a href="#audit" class="w-full sm:w-auto px-8 py-4 rounded-xl text-base font-extrabold bg-teal-500 text-slate-950 shadow-xl shadow-teal-500/20 hover:bg-teal-400 hover:-translate-y-0.5 transition-all">
           Request Free Business Audit
         </a>
         <a href="#services" class="w-full sm:w-auto px-8 py-4 rounded-xl text-base font-bold bg-slate-900 text-slate-200 border border-slate-800 shadow-sm hover:bg-slate-800 transition-all">
           Explore Our 6 Core Services
         </a>
-      </div>
+      </div> -->
 
       <!-- METRICS TICKER -->
       <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto bg-[#121217] p-6 rounded-2xl border border-slate-800 shadow-xl">
@@ -113,7 +162,7 @@
         <span class="text-xs font-extrabold text-teal-400 uppercase tracking-widest bg-slate-900 px-3.5 py-1.5 rounded-full border border-slate-800">End-to-End Growth Suite</span>
         <h2 class="text-3xl sm:text-4xl font-black text-white mt-4">6 Specialized Services to Dominating E-Commerce</h2>
         <p class="text-slate-300 mt-2 text-base">Everything your small or medium business needs to launch, attract high-intent buyers, and maximize customer lifetime value.</p>
-      </div>Ecommerce
+      </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         
@@ -139,188 +188,3 @@
             <li class="flex items-center gap-2">✓ On-Page Product & Category SEO</li>
             <li class="flex items-center gap-2">✓ Local SEO for Physical SMB Outlets</li>
           </ul>
-        </div>
-
-        <!-- Service 3: Paid Search -->
-        <div class="p-8 rounded-2xl bg-[#121217] border border-slate-800 hover:border-teal-500/50 hover:shadow-xl transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-slate-900 text-teal-400 border border-slate-800 flex items-center justify-center font-black text-lg mb-6">03</div>
-          <h3 class="text-xl font-black text-white group-hover:text-teal-400 transition-colors">3. Paid Search & Multi-Channel Ads</h3>
-          <p class="text-sm text-slate-400 mt-3 leading-relaxed">Profitable ad campaigns across Google Ads, Meta Ads (Facebook & Instagram), Amazon Ads, and Bing Ads engineered for maximum return on ad spend (ROAS).</p>
-          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-300">
-            <li class="flex items-center gap-2">✓ Google Performance Max & Shopping</li>
-            <li class="flex items-center gap-2">✓ Meta (FB/IG) Retargeting & Prospecting</li>
-            <li class="flex items-center gap-2">✓ Amazon Ads & Bing Ads Scale Strategy</li>
-          </ul>
-        </div>
-
-        <!-- Service 4: Social Media Marketing -->
-        <div class="p-8 rounded-2xl bg-[#121217] border border-slate-800 hover:border-teal-500/50 hover:shadow-xl transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-slate-900 text-teal-400 border border-slate-800 flex items-center justify-center font-black text-lg mb-6">04</div>
-          <h3 class="text-xl font-black text-white group-hover:text-teal-400 transition-colors">4. Social Media Marketing</h3>
-          <p class="text-sm text-slate-400 mt-3 leading-relaxed">Build engaged viral communities on Facebook and Instagram. High-converting Reels, feed graphics, story sequences, and active community interaction.</p>
-          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-300">
-            <li class="flex items-center gap-2">✓ Facebook & Instagram Content Creation</li>
-            <li class="flex items-center gap-2">✓ High-Impact Reels & Video Assets</li>
-            <li class="flex items-center gap-2">✓ Daily Community DM & Comment Engagement</li>
-          </ul>
-        </div>
-
-        <!-- Service 5: Content Marketing -->
-        <div class="p-8 rounded-2xl bg-[#121217] border border-slate-800 hover:border-teal-500/50 hover:shadow-xl transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-slate-900 text-teal-400 border border-slate-800 flex items-center justify-center font-black text-lg mb-6">05</div>
-          <h3 class="text-xl font-black text-white group-hover:text-teal-400 transition-colors">5. Content Marketing & Copywriting</h3>
-          <p class="text-sm text-slate-400 mt-3 leading-relaxed">SEO blog posts, articles, buyer guides, and persuasive product descriptions that educate prospects, boost Google rankings, and build buyer trust.</p>
-          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-300">
-            <li class="flex items-center gap-2">✓ In-Depth SEO Blog Articles & Pillar Guides</li>
-            <li class="flex items-center gap-2">✓ Seductive E-Com Product Descriptions</li>
-            <li class="flex items-center gap-2">✓ Brand Messaging & Editorial Strategy</li>
-          </ul>
-        </div>
-
-        <!-- Service 6: Email Marketing -->
-        <div class="p-8 rounded-2xl bg-[#121217] border border-slate-800 hover:border-teal-500/50 hover:shadow-xl transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-slate-900 text-teal-400 border border-slate-800 flex items-center justify-center font-black text-lg mb-6">06</div>
-          <h3 class="text-xl font-black text-white group-hover:text-teal-400 transition-colors">6. Email & Lifecycle Marketing</h3>
-          <p class="text-sm text-slate-400 mt-3 leading-relaxed">Nurture leads and drive recurring sales. Automated Klaviyo email sequences for abandoned carts, welcome series, and weekly promotional broadcasts.</p>
-          <ul class="mt-6 space-y-2 text-xs font-bold text-slate-300">
-            <li class="flex items-center gap-2">✓ Abandoned Cart & Browse Recovery Flows</li>
-            <li class="flex items-center gap-2">✓ Custom Mobile Responsive HTML Templates</li>
-            <li class="flex items-center gap-2">✓ List Segmentation & High Open Rates</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ROI CALCULATOR SECTION -->
-  <section id="calculator" class="py-20 bg-[#0A0A0B] text-white">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <span class="text-xs font-extrabold text-teal-400 uppercase tracking-widest bg-slate-900 px-3.5 py-1.5 rounded-full border border-slate-800">Interactive Tool</span>
-        <h2 class="text-3xl font-black mt-4">Estimate Your SMB Growth Potential</h2>
-        <p class="text-slate-300 text-sm mt-2">Calculate projected monthly revenue uplift based on your store's target budget.</p>
-      </div>
-
-      <div class="bg-[#121217] border border-slate-800 rounded-2xl p-8 shadow-2xl">
-        <div class="grid md:grid-cols-2 gap-8 items-center">
-          <div>
-            <label class="block text-sm font-bold text-slate-300 mb-2">Monthly Target Budget: <span id="budgetValue" class="text-teal-400 font-extrabold">$2,500</span></label>
-            <input type="range" id="budgetInput" min="500" max="15000" step="500" value="2500" class="w-full accent-teal-400 h-2 bg-slate-900 rounded-lg cursor-pointer">
-            
-            <div class="mt-6 space-y-3">
-              <span class="block text-xs font-extrabold text-slate-400 uppercase">Selected Growth Channels:</span>
-              <div class="grid grid-cols-2 gap-2 text-xs">
-                <label class="flex items-center gap-2 bg-slate-900 p-2.5 rounded-lg border border-slate-800 cursor-pointer text-slate-300 font-semibold">
-                  <input type="checkbox" checked class="accent-teal-400 rounded"> SMB Website Optimization
-                </label>
-                <label class="flex items-center gap-2 bg-slate-900 p-2.5 rounded-lg border border-slate-800 cursor-pointer text-slate-300 font-semibold">
-                  <input type="checkbox" checked class="accent-teal-400 rounded"> SEO Organic Growth
-                </label>
-                <label class="flex items-center gap-2 bg-slate-900 p-2.5 rounded-lg border border-slate-800 cursor-pointer text-slate-300 font-semibold">
-                  <input type="checkbox" checked class="accent-teal-400 rounded"> Google & Meta Ads
-                </label>
-                <label class="flex items-center gap-2 bg-slate-900 p-2.5 rounded-lg border border-slate-800 cursor-pointer text-slate-300 font-semibold">
-                  <input type="checkbox" checked class="accent-teal-400 rounded"> Email Marketing Flows
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-slate-900/90 p-6 rounded-xl border border-slate-800 text-center">
-            <span class="text-xs font-extrabold text-teal-400 uppercase tracking-wider block">Estimated Monthly Revenue Lift</span>
-            <span id="projectedRev" class="text-4xl font-black text-teal-400 mt-2 block">$10,500</span>
-            <p class="text-xs text-slate-400 mt-2">Based on Search Engine Markets' historical average 4.2x multi-channel ROI across 240+ SMB clients.</p>
-            <a href="#audit" class="mt-6 inline-block w-full py-3.5 rounded-xl bg-teal-500 text-slate-950 font-extrabold text-sm hover:bg-teal-400 transition-colors shadow-lg shadow-teal-500/20">
-              Get Detailed ROI Plan &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AUDIT REQUEST FORM -->
-  <section id="audit" class="py-20 bg-[#0D0D10] border-t border-slate-800">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="bg-[#121217] p-8 sm:p-10 rounded-2xl border border-slate-800 shadow-xl">
-        <div class="text-center mb-8">
-          <span class="text-xs font-extrabold text-teal-400 uppercase tracking-widest bg-slate-900 px-3.5 py-1.5 rounded-full border border-slate-800">Complimentary Analysis</span>
-          <h2 class="text-3xl font-black text-white mt-4">Get Your Free SMB Website & Marketing Audit</h2>
-          <p class="text-slate-300 text-sm mt-2">Our growth team will review your website, SEO rank, and ad channels within 24 hours.</p>
-        </div>
-
-        <form onsubmit="event.preventDefault(); alert('Thank you! Your audit request has been received. Our team will email your custom audit report within 24 hours.');" class="space-y-4">
-          <div class="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-xs font-bold text-slate-300 mb-1">Business Name</label>
-              <input type="text" required placeholder="e.g. Acme Apparel" class="w-full px-4 py-3 text-sm rounded-xl bg-slate-900 border border-slate-800 text-white focus:border-teal-400 focus:outline-none">
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-slate-300 mb-1">Website URL</label>
-              <input type="url" required placeholder="https://yourstore.com" class="w-full px-4 py-3 text-sm rounded-xl bg-slate-900 border border-slate-800 text-white focus:border-teal-400 focus:outline-none">
-            </div>
-          </div>
-
-          <div class="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-xs font-bold text-slate-300 mb-1">Your Name</label>
-              <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 text-sm rounded-xl bg-slate-900 border border-slate-800 text-white focus:border-teal-400 focus:outline-none">
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-slate-300 mb-1">Work Email</label>
-              <input type="email" required placeholder="john@yourstore.com" class="w-full px-4 py-3 text-sm rounded-xl bg-slate-900 border border-slate-800 text-white focus:border-teal-400 focus:outline-none">
-            </div>
-          </div>
-
-          <div>
-            <label class="block text-xs font-bold text-slate-300 mb-1">Services Needed</label>
-            <select class="w-full px-4 py-3 text-sm rounded-xl bg-slate-900 border border-slate-800 text-white focus:border-teal-400 focus:outline-none">
-              <option>Full Suite (Web, SEO, Ads, Social, Content, Email)</option>
-              <option>1. Creating Website for SMB</option>
-              <option>2. SEO - Search Engine Optimization</option>
-              <option>3. Paid Search (Google, Meta, Amazon, Bing Ads)</option>
-              <option>4. Social Media Marketing (Facebook & Instagram)</option>
-              <option>5. Content Marketing & Blog Copy</option>
-              <option>6. Email Marketing & Automation</option>
-            </select>
-          </div>
-
-          <button type="submit" class="w-full py-4 rounded-xl font-extrabold bg-teal-500 text-slate-950 shadow-lg shadow-teal-500/20 hover:bg-teal-400 transition-all text-base mt-2 cursor-pointer">
-            Submit for Free Audit
-          </button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="bg-[#0A0A0B] text-slate-400 py-12 border-t border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center gap-6">
-      <div>
-        <p class="text-white font-bold text-lg">Search Engine Markets Agency (SEM)</p>
-        <p class="text-xs text-slate-500 mt-1">&copy; 2026 Search Engine Markets LLC. All rights reserved.</p>
-      </div>
-      <div class="flex gap-6 text-xs font-semibold">
-        <a href="#services" class="hover:text-teal-400">Services</a>
-        <a href="#calculator" class="hover:text-teal-400">ROI Tool</a>
-        <a href="#audit" class="hover:text-teal-400">Audit</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    const budgetInput = document.getElementById('budgetInput');
-    const budgetValue = document.getElementById('budgetValue');
-    const projectedRev = document.getElementById('projectedRev');
-
-    if (budgetInput) {
-      budgetInput.addEventListener('input', (e) => {
-        const val = parseInt(e.target.value);
-        budgetValue.textContent = '$' + val.toLocaleString();
-        projectedRev.textContent = '$' + Math.round(val * 4.2).toLocaleString();
-      });
-    }
-  </script>
-</body>
-</html>
